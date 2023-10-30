@@ -10,3 +10,4 @@ if __name__ == '__main__':
     print(result)
     result_with_lambda = plus_two_lambda(5)
     print(result_with_lambda)
+    hello()
