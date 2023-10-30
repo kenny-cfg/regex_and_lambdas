@@ -9,6 +9,12 @@ def is_even(num):
     return num % 2 == 0
 
 
+'''
+is_even = lambda element: element % 2 == 0
+
+is the same as above
+'''
+
 if __name__ == '__main__':
     new_array = list(filter(lambda element: element % 2 == 0, start_array))
     new_array_again = list(filter(is_even, start_array))
